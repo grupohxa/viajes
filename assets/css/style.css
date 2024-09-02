@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: aliceblue;
+}
+
+/*ESTILOS TAREA 3*/
+.travel{
+    width: 40px;
+}
+.search-container {
+    text-align: center;
+}
+
+.search-container input, button {
+    margin-left: 10px;
+}
+
+.search-container input {
+    margin-right: 10px;
+}
+
+#results-container {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.package {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 300px;
+    margin-top: 50px;
+}
+
+
+/* cards ofertas */
+.card.offer {
+    position: relative;
+    border: 2px solid gold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card.offer::after {
+    content: "";
+    position: absolute;
+    background-image: url("/assets/img/Super-sale.jpg");
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    background-position: right -2px bottom 5px;
+    width: 100px;
+    height: 80px;
+    bottom: 5px;
+    right: 1px;
+    
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+.notificacion {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    background-color: #4c8baf;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+
+/*ESTILOS TAREA 4*/
+
+.buscador-title{
+    text-align: center; 
+}
+
+
+.buscador-form {
+    margin-top: 20px;
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buscador-label{
+    display: block;
+    margin-top: 10px;
+}
+
+.buscador-input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.buscador-submit {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buscador-submit:hover {
+    background-color: #0056b3;
+}
+
+.notification {
+    position: fixed;
+    bottom: 100px; 
+    right: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    z-index: 1000;
+    display: none;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.busqueda-titulo{
+    text-align: center;
+}
+
+.resultado {
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.resultados-container {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/*SEM 5*/
+
+
+.quantity-form {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-button {
+    border: 1px solid #007bff;
+    background-color: #fff;
+    color: #007bff;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.quantity-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.quantity-input {
+    width: 60px;
+    text-align: center;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 5px;
+}

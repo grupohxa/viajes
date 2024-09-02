@@ -1,0 +1,130 @@
+[
+    {
+        "country": "Francia",
+        "destination": "Paris",
+        "date": "2024-08-15",
+        "price": 1713024,
+        "offer": true,
+        "image": "./assets/img/paris.jpg"
+    },
+    {
+        "country": "USA",
+        "destination": "New York",
+        "date": "2024-09-10",
+        "price": 1969100,
+        "offer": false,
+        "image": "./assets/img/new_york.jpg"
+    },
+    {
+        "country": "Japon",
+        "destination": "Tokio",
+        "date": "2024-10-05",
+        "price": 1850000,
+        "offer": true,
+        "image": "./assets/img/tokio.jpeg"
+    },
+    {
+        "country": "UK",
+        "destination": "Londres",
+        "date": "2024-07-25",
+        "price": 3141698,
+        "offer": false,
+        "image": "./assets/img/londres.jpeg"
+    },
+    {
+        "country": "Argentina",
+        "destination": "Buenos Aires",
+        "date": "2024-09-12",
+        "price": 250490,
+        "offer": true,
+        "image": "./assets/img/buenos_aires.jpg"
+    },
+    {
+        "country": "Alemania",
+        "destination": "Berlin",
+        "date": "2024-10-12",
+        "price": 288360,
+        "offer": true,
+        "image": "./assets/img/berlin.jpg"
+    },
+    {
+        "country": "Italia",
+        "destination": "Roma",
+        "date": "2024-08-31",
+        "price": 2125652,
+        "offer": false,
+        "image": "./assets/img/Roma.jpg"
+    },
+    {
+        "country": "Peru",
+        "destination": "Lima",
+        "date": "2024-12-10",
+        "price": 208858,
+        "offer": true,
+        "image": "./assets/img/Lima.jpeg"
+    },
+    {
+        "country": "España",
+        "destination": "Madrid",
+        "date": "2024-12-25",
+        "price": 2124980,
+        "offer": false,
+        "image": "./assets/img/madrid.jpg"
+    },
+    {
+        "country": "Brasil",
+        "destination": "Sao Paulo",
+        "date": "2025-01-05",
+        "price": 600000,
+        "offer": false,
+        "image": "./assets/img/Sao_Paulo.jpg"
+    },
+    {
+        "country": "Andorra",
+        "destination": "Andorra",
+        "date": "2025-01-18",
+        "price": 2741560,
+        "offer": true,
+        "image": "./assets/img/Andorra.jpeg"
+    },
+    {
+        "country": "Brasil",
+        "destination": "Florianapolis",
+        "date": "2025-01-18",
+        "price": 298434,
+        "offer": true,
+        "image": "./assets/img/Florianapolis.jpeg"
+    },
+    {
+        "country": "España",
+        "destination": "Barcelona",
+        "date": "2025-01-18",
+        "price": 2154796,
+        "offer": true,
+        "image": "./assets/img/barcelona.jpeg"
+    },
+    {
+        "country": "Brasil",
+        "destination": "Rio de Janeiro",
+        "date": "2025-02-07",
+        "price": 418075,
+        "offer": false,
+        "image": "./assets/img/Rio_janeiro.jpg"
+    },
+    {
+        "country": "Aruba",
+        "destination": "Aruba",
+        "date": "2024-12-07",
+        "price": 817910,
+        "offer": true,
+        "image": "./assets/img/Aruba.jpeg"
+    },
+    {
+        "country": "Argentina",
+        "destination": "Cataratas del Iguazú",
+        "date": "2024-08-03",
+        "price": 519766,
+        "offer": false,
+        "image": "./assets/img/Cataratas_iguazu.jpg"
+    }
+]

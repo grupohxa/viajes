@@ -1,0 +1,83 @@
+[
+    { 
+        "id": 1, 
+        "nombreHotel": "Hotel Gran Plaza", 
+        "ciudad": "Santiago", 
+        "pais": "Chile", 
+        "fechaViaje": "2024-10-08", 
+        "duracion": "3" 
+    },
+    { 
+        "id": 2, 
+        "nombreHotel": "Hotel Beachside", 
+        "ciudad": "Viña del Mar", 
+        "pais": "Chile", 
+        "fechaViaje": "2024-11-15", 
+        "duracion": "5" 
+    },
+    { 
+        "id": 3, 
+        "nombreHotel": "Hotel Capital", 
+        "ciudad": "Buenos Aires", 
+        "pais": "Argentina", 
+        "fechaViaje": "2024-12-20", 
+        "duracion": "7" 
+    },
+    { 
+        "id": 4, 
+        "nombreHotel": "Hotel Sakura", 
+        "ciudad": "Tokio", 
+        "pais": "Japón", 
+        "fechaViaje": "2024-09-15", 
+        "duracion": "3" 
+    },
+    { 
+        "id": 5, 
+        "nombreHotel": "Hotel Playa Bonita", 
+        "ciudad": "Cancún", 
+        "pais": "México", 
+        "fechaViaje": "2024-10-20", 
+        "duracion": "5" 
+    },
+    { 
+        "id": 6, 
+        "nombreHotel": "Hotel Eiffel", 
+        "ciudad": "París", 
+        "pais": "Francia", 
+        "fechaViaje": "2024-09-10", 
+        "duracion": "7" 
+    },
+    { 
+        "id": 7, 
+        "nombreHotel": "Hotel Empire", 
+        "ciudad": "Nueva York", 
+        "pais": "Estados Unidos", 
+        "fechaViaje": "2024-11-05", 
+        "duracion": "4" 
+    },
+    { 
+        "id": 8, 
+        "nombreHotel": "Hotel Canal", 
+        "ciudad": "Venecia", 
+        "pais": "Italia", 
+        "fechaViaje": "2024-12-01", 
+        "duracion": "3" 
+    },
+    { 
+        "id": 9, 
+        "nombreHotel": "Hotel Berlin Plaza", 
+        "ciudad": "Berlín", 
+        "pais": "Alemania", 
+        "fechaViaje": "2024-10-25", 
+        "duracion": "6" 
+    },
+    { 
+        "id": 10, 
+        "nombreHotel": "Hotel Desert Rose", 
+        "ciudad": "Dubái", 
+        "pais": "Emiratos Árabes Unidos", 
+        "fechaViaje": "2024-11-12", 
+        "duracion": "4" 
+    }
+]
+
