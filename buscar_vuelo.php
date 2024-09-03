@@ -9,6 +9,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $numeroVuelo = validarInput($_POST['numeroVuelo']);
 
     try {
+        // Verificar si el archivo JSON existe
+        if (!file_exists('data/vuelos.json')) {
+            throw new Exception("El archivo JSON de vuelos no existe.");
+        }
+
         // Leer el archivo JSON de vuelos
         $vuelosJson = file_get_contents('data/vuelos.json');
         if ($vuelosJson === false) {
@@ -17,8 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Decodificar el JSON
         $vuelos = json_decode($vuelosJson, true);
-        if ($vuelos === null) {
-            throw new Exception("Error al decodificar el archivo JSON de vuelos.");
+        if (json_last_error() !== JSON_ERROR_NONE) {
+            throw new Exception("Error al decodificar el archivo JSON de vuelos: " . json_last_error_msg());
         }
 
         // Filtrar los vuelos
@@ -62,6 +67,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } catch (Exception $e) {
         echo "<p>Ocurrió un error al buscar vuelos: " . $e->getMessage() . "</p>";
     }
+
+    // Botón para volver al inicio
+    echo "<div class='volver-inicio'>";
+    echo "<button onclick=\"window.location.href='index.php';\">Volver al Inicio</button>";
+    echo "</div>";
+
 } else {
     echo "No se han recibido datos del formulario.";
 }
@@ -71,6 +82,6 @@ function validarInput($dato) {
     $dato = trim($dato);
     $dato = stripslashes($dato);
     $dato = htmlspecialchars($dato);
-    return $dato;
+    return $dato;
 }
 ?>
