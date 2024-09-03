@@ -139,7 +139,24 @@ include 'carrito.php';
 
         <input class="buscador-submit" type="submit" value="Buscar Viaje">
     </form>
+    <!-- Buscador de Vuelos -->
+    <h1 class="buscador-title">Buscar Vuelos</h1>
+    <form class="buscador-form" action="buscar_vuelo.php" method="post">
+        <label class="buscador-label" for="origen">Origen:</label>
+        <input class="buscador-input" type="text" id="origen" name="origen" required><br>
 
+        <label class="buscador-label" for="destino">Destino:</label>
+        <input class="buscador-input" type="text" id="destino" name="destino" required><br>
+
+        <label class="buscador-label" for="fechaSalida">Fecha de Salida:</label>
+        <input class="buscador-input" type="date" id="fechaSalida" name="fechaSalida" required><br>
+
+        <label class="buscador-label" for="numeroVuelo">Número de Vuelo (opcional):</label>
+        <input class="buscador-input" type="text" id="numeroVuelo" name="numeroVuelo"><br>
+
+        <input class="buscador-submit" type="submit" value="Buscar Vuelo">
+    </form>
+   
 </main>
 
 <!-- Scripts JS -->

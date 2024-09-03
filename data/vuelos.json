@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "companiaAerea": "Aerolíneas Argentinas",
+        "origen": "Santiago",
+        "destino": "Buenos Aires",
+        "fechaSalida": "2024-12-20",
+        "horaSalida": "09:00",
+        "fechaLlegada": "2024-12-20",
+        "horaLlegada": "11:30",
+        "numeroVuelo": "AR 123",
+        "duracion": "2h 30m"
+    },
+    {
+        "id": 2,
+        "companiaAerea": "American Airlines",
+        "origen": "Nueva York",
+        "destino": "París",
+        "fechaSalida": "2024-11-05",
+        "horaSalida": "18:45",
+        "fechaLlegada": "2024-11-06",
+        "horaLlegada": "07:00",
+        "numeroVuelo": "AA 456",
+        "duracion": "8h 15m"
+    },
+    {
+        "id": 3,
+        "companiaAerea": "Emirates",
+        "origen": "Tokio",
+        "destino": "Dubái",
+        "fechaSalida": "2024-09-15",
+        "horaSalida": "23:30",
+        "fechaLlegada": "2024-09-16",
+        "horaLlegada": "05:30",
+        "numeroVuelo": "EK 789",
+        "duracion": "8h 00m"
+    },
+    {
+        "id": 4,
+        "companiaAerea": "Iberia",
+        "origen": "Cancún",
+        "destino": "Madrid",
+        "fechaSalida": "2024-10-20",
+        "horaSalida": "15:10",
+        "fechaLlegada": "2024-10-21",
+        "horaLlegada": "06:00",
+        "numeroVuelo": "IB 234",
+        "duracion": "10h 50m"
+    },
+    {
+        "id": 5,
+        "companiaAerea": "Lufthansa",
+        "origen": "Viña del Mar",
+        "destino": "Berlín",
+        "fechaSalida": "2024-11-15",
+        "horaSalida": "13:00",
+        "fechaLlegada": "2024-11-15",
+        "horaLlegada": "20:00",
+        "numeroVuelo": "LH 345",
+        "duracion": "12h 00m"
+    },
+    {
+        "id": 6,
+        "companiaAerea": "Qatar Airways",
+        "origen": "Venecia",
+        "destino": "Doha",
+        "fechaSalida": "2024-12-01",
+        "horaSalida": "11:25",
+        "fechaLlegada": "2024-12-01",
+        "horaLlegada": "17:00",
+        "numeroVuelo": "QR 678",
+        "duracion": "5h 35m"
+    },
+    {
+        "id": 7,
+        "companiaAerea": "Delta Airlines",
+        "origen": "Buenos Aires",
+        "destino": "Cancún",
+        "fechaSalida": "2024-10-08",
+        "horaSalida": "22:00",
+        "fechaLlegada": "2024-10-09",
+        "horaLlegada": "04:30",
+        "numeroVuelo": "DL 901",
+        "duracion": "6h 30m"
+    },
+    {
+        "id": 8,
+        "companiaAerea": "Air France",
+        "origen": "París",
+        "destino": "Tokio",
+        "fechaSalida": "2024-09-10",
+        "horaSalida": "14:00",
+        "fechaLlegada": "2024-09-11",
+        "horaLlegada": "09:00",
+        "numeroVuelo": "AF 234",
+        "duracion": "11h 00m"
+    },
+    {
+        "id": 9,
+        "companiaAerea": "Turkish Airlines",
+        "origen": "Dubái",
+        "destino": "Venecia",
+        "fechaSalida": "2024-11-12",
+        "horaSalida": "07:30",
+        "fechaLlegada": "2024-11-12",
+        "horaLlegada": "11:00",
+        "numeroVuelo": "TK 789",
+        "duracion": "6h 30m"
+    },
+    {
+        "id": 10,
+        "companiaAerea": "Swiss International Air Lines",
+        "origen": "Berlín",
+        "destino": "París",
+        "fechaSalida": "2024-12-01",
+        "horaSalida": "17:20",
+        "fechaLlegada": "2024-12-01",
+        "horaLlegada": "19:00",
+        "numeroVuelo": "LX 456",
+        "duracion": "1h 40m"
+    }
+]
